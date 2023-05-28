@@ -27,7 +27,6 @@ RUN apt-get update \
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN chmod +x /backend/docker/entrypoint.sh
 # Set working directory
 WORKDIR /app/backend
 
