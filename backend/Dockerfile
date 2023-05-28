@@ -1,5 +1,5 @@
 # Base image
-FROM php:8.2-apache as laravel
+FROM php:8.2-apache as php
 
 
 # Install dependencies
@@ -9,7 +9,9 @@ RUN apt-get update \
         unzip \
         libpq-dev \
         libonig-dev \
-        libxml2-dev \
+        libxml2-dev \    
+        default-mysql-client \     
+        iputils-ping \   
     && docker-php-ext-install \
         pdo \
         pdo_mysql \
@@ -26,7 +28,7 @@ RUN apt-get update \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Set working directory
-WORKDIR /var/www
+WORKDIR /app/backend
 
 # Copy project files to container
 COPY . .
