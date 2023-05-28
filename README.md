@@ -1,10 +1,8 @@
-<h1 align="center">Laravel Test</h1>
+<h1 align="center">Laravel-React Test</h1>
 
 ## Introduction
 
-I am Alexander Mamaril, senior Laravel developer with over 7 years' experience. I have completed Skill Test.
-
-> This is a sever for api
+I am Alexander Mamaril, senior Full Stack developer with over 7 years' experience. I have completed Skill Test.
 
 This guide will help you install and set up a Laravel project using Docker.
 
@@ -14,20 +12,22 @@ This guide will help you install and set up a Laravel project using Docker.
 -   Docker Compose (version 2.12.2)
 -   Composer (version 2.5.5)
 -   PHP (version 8.2.6)
+-   Node.js (version 16.15.1)
+-   npm (version 8.11.0)
 
 ## Installation
 
 1. Clone the project repository:
 
     ```bash
-    git clone https://github.com/ksmks0921/Assessment-Innoscripta-Laravel
+    git clone https://github.com/ksmks0921/Assessment-Innosripta-Full.git
 
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd Assessment-Innoscripta-Laravel
+    cd app
 
     ```
 
@@ -40,7 +40,8 @@ This guide will help you install and set up a Laravel project using Docker.
 
 4. Visit:
 
-    Visit http://127.0.0.1:8000 in your browser to access the Laravel application.
+    Visit http://127.0.0.1:8000 in your browser to access the Laravel pplication.
+    Visit http://127.0.0.1:5173 in your browser to access the React application.
 
 ## Additional Information
 
