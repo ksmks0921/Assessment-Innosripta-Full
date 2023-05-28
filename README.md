@@ -27,7 +27,7 @@ This guide will help you install and set up a Laravel project using Docker.
 2. Navigate to the project directory:
 
     ```bash
-    cd app
+    cd cd Assessment-Innosripta-Full
 
     ```
 
