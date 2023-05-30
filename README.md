@@ -2,8 +2,6 @@
 
 ## Introduction
 
-I am Alexander Mamaril, senior Full Stack developer with over 7 years' experience. I have completed Skill Test.
-
 This guide will help you install and set up a Laravel project using Docker.
 
 ## Prerequisites
